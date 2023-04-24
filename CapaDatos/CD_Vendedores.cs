@@ -187,6 +187,34 @@ namespace CapaDatos
             Tabla.Load(Leer);
             conexion.CerrarConexion();
         }
+
+
+        //Consultar NaturVida
+
+
+        public string TraerNombreUsuario(CE_Vendedores vendedor)
+        {
+            //SqlCommand comando2 = new SqlCommand();
+            //SqlDataReader Leer2;
+            Comando.Parameters.Clear();
+            Comando.Connection = conexion.AbrirConexion();
+            Comando.CommandText = "TraerNombreUsuario";
+            Comando.Parameters.AddWithValue("@Usuario", vendedor.Usuario);
+            Comando.CommandType = CommandType.StoredProcedure;
+            Leer = Comando.ExecuteReader();
+            if (Leer.Read())
+            {
+                string nombre = Leer["Nombre"].ToString();
+                Leer.Close();
+                return nombre;
+            }
+            else
+            {
+                Leer.Close();
+                return " ";
+            }
+            conexion.CerrarConexion();
+        }
     }
 }
 

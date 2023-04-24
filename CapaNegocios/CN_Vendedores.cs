@@ -108,5 +108,15 @@ namespace CapaNegocios
         {
             oCD_Vendedores.eliminarvendedor(vendedores);
         }
+
+
+        //Consultar NaturVida
+
+
+        public string TraerNombreUsuario(CE_Vendedores vendedor)
+        {
+            string vendedor1 = oCD_Vendedores.TraerNombreUsuario(vendedor);
+            return vendedor1;
+        }
     }
 }

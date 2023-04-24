@@ -253,20 +253,27 @@ namespace CapaPresentacion
 
         private void Btneliminar_vendedor_vendedor_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Seguro que quieres eliminar", "Advertencia", MessageBoxButtons.YesNo) == DialogResult.Yes) //Mensaje de verificación al usuario para proceder a eliminar
+            if (Cboeliminar_vendedor_usuario.Text != Form1.VendedorGlobal.vendedor1) //Se verifica que el usuario del vendedor a eliminar no sea el mismo que inició sesión
             {
-                vendedores.Codigo = Convert.ToInt32(Cboeliminar_vendedor_usuario.SelectedValue);
-                oCN_Vendedores.eliminarvend(vendedores); //Elimina el vendedor
-                Cboeliminar_vendedor_usuario.SelectedIndex = -1;
-                MessageBox.Show("Se eliminó correctamente");
-                mostrartodoseditarvendedores();
-                mostrarnombrevendedor();
-                editarmostrarnombrevendedor();
-                eliminarmostrarnombrevendedor();
+                if (MessageBox.Show("Seguro que quieres eliminar", "Advertencia", MessageBoxButtons.YesNo) == DialogResult.Yes) //Mensaje de verificación al usuario para proceder a eliminar
+                {
+                    vendedores.Codigo = Convert.ToInt32(Cboeliminar_vendedor_usuario.SelectedValue);
+                    oCN_Vendedores.eliminarvend(vendedores); //Elimina el vendedor
+                    Cboeliminar_vendedor_usuario.SelectedIndex = -1;
+                    MessageBox.Show("Se eliminó correctamente");
+                    mostrartodoseditarvendedores();
+                    mostrarnombrevendedor();
+                    editarmostrarnombrevendedor();
+                    eliminarmostrarnombrevendedor();
+                }
+                else
+                {
+                    MessageBox.Show("Se canceló la eliminación");
+                }
             }
             else
             {
-                MessageBox.Show("Se canceló la eliminación");
+                MessageBox.Show("No se puede eliminar el usuario del vendedor que inició sesión");
             }
         }
 
