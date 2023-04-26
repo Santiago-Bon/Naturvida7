@@ -94,6 +94,7 @@
             // 
             // Dgv_Inventario
             // 
+            this.Dgv_Inventario.AllowUserToAddRows = false;
             this.Dgv_Inventario.AllowUserToResizeColumns = false;
             this.Dgv_Inventario.AllowUserToResizeRows = false;
             this.Dgv_Inventario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;

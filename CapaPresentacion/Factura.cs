@@ -172,23 +172,43 @@ namespace CapaPresentacion
 
                     if (cant-Convert.ToInt32(TxtCantidad.Text) >= 0) //Si la cantidad del producto traida menos la cantidad que vayamos a ingresar es mayor o igual a 0
                     {
+                        int cantidad_total = 0;
+                        int contador = 0;
+
                         filas["Producto"] = CboProducto.Text; //Enviamos los datos a las columnas del datagridview
                         filas["Codigo producto"] = CboProducto.SelectedValue;
-                        filas["Cantidad"] = TxtCantidad.Text;
 
                         productos.Descripcion = CboProducto.Text;
                         valor_unitario = Convert.ToInt32(oCN_Productos.MostrarValorProducto(productos)); //Consultamos el valor unitario del producto seleccionado en el combobox de los productos 
                         
                         filas["Valor Unitario"] = valor_unitario;
+                        filas["Cantidad"] = TxtCantidad.Text;
                         filas["Subtotal"] = Convert.ToInt32(TxtCantidad.Text) * Convert.ToInt32(oCN_Productos.MostrarValorProducto(productos).ToString()); //Calculamos el subtotal multiplicando la cantidad ingresada por el valor unitario del producto seleccionado 
 
                         foreach (DataRow fila in tabla.Rows) //Recorremos el datagridview
                         {
                             while (Convert.ToInt32(fila["Codigo producto"]) == Convert.ToInt32(CboProducto.SelectedValue)) //Mientras el código del producto de la columna del datagridview sea igual a el código del producto seleccionado en el combobox de los productos
                             {
-                                respuesta = false;
-                                break; //Rompa el ciclo
+                                cantidad_total = Convert.ToInt32(fila["Cantidad"]) + Convert.ToInt32(TxtCantidad.Text); //Contenido de la fila en la columna cantidad más la cantidad ingresada
+
+                                if (cant - cantidad_total >= 0)  //Si la cantidad del producto traida menos la suma de la fila en la columna cantidad más la cantidad ingresada es mayor o igual a 0
+                                {
+                                    DgvProductosFactura.Rows[contador].Cells[3].Value = cantidad_total.ToString(); //Añadimos el contenido de la variable cantidad total al datagridview
+                                    DgvProductosFactura.Rows[contador].Cells[4].Value = cantidad_total * Convert.ToInt32(oCN_Productos.MostrarValorProducto(productos).ToString()); //Añadimos el contenido de la variable cantidad total por por el valor unitario del producto seleccionado al datagridview
+
+                                    respuesta = false;
+                                    TxtTotal_Factura.Text = TotalFactura().ToString(); //Muestra el total de la factura
+                                    LimpiarAgregar(); //Limpia las cajas de texto y los combobox
+                                    break; //Rompa el ciclo
+                                }
+                                else
+                                {
+                                    MessageBox.Show("No hay suficiente de este producto");
+                                    respuesta = false;
+                                    break;
+                                }
                             }
+                            contador++;
                         }                      
                         if (respuesta == true) //Si respuesta es igual a verdadera
                         {
@@ -196,10 +216,6 @@ namespace CapaPresentacion
                             TxtTotal_Factura.Text = TotalFactura().ToString(); //Muestra el total de la factura
                             LimpiarAgregar(); //Limpia las cajas de texto y los combobox
                             BtnTerminarFactura.Enabled = true;
-                        }
-                        else
-                        {
-                            MessageBox.Show("Ya agregó este producto");
                         }
                     }
                     else

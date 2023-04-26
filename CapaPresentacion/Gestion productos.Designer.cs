@@ -37,52 +37,52 @@
             this.label4 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Tpgingresarproductos = new System.Windows.Forms.TabPage();
-            this.Txtingresar_producto_cantidad = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.Txtingresar_producto_valor = new System.Windows.Forms.TextBox();
-            this.Txtingresar_producto_descripcion = new System.Windows.Forms.TextBox();
+            this.Txtingresar_producto_cantidad = new System.Windows.Forms.TextBox();
             this.Btningresa_producto_guardar = new System.Windows.Forms.Button();
+            this.Txtingresar_producto_descripcion = new System.Windows.Forms.TextBox();
             this.Tpgconsultarproducto = new System.Windows.Forms.TabPage();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.Btnconsultar_producto_mostrarproducto = new System.Windows.Forms.Button();
-            this.Cbxconsultar_producto_producto = new System.Windows.Forms.ComboBox();
-            this.Dgwconsultarproducto = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
             this.Btn_consultar_producto_consultar = new System.Windows.Forms.Button();
+            this.Cbxconsultar_producto_producto = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Dgwconsultarproducto = new System.Windows.Forms.DataGridView();
             this.Tpgmodificarproducto = new System.Windows.Forms.TabPage();
-            this.Txtmodificar_producto_cantidad = new System.Windows.Forms.TextBox();
-            this.Txtmodificar_producto_valor = new System.Windows.Forms.TextBox();
-            this.Txtmodificar_producto_descripcion = new System.Windows.Forms.TextBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.Btnmodificar_producto_guardarcambios = new System.Windows.Forms.Button();
+            this.Txtmodificar_producto_cantidad = new System.Windows.Forms.TextBox();
+            this.Btnmodificar_producto_consultar = new System.Windows.Forms.Button();
+            this.Txtmodificar_producto_valor = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.Txtmodificar_producto_descripcion = new System.Windows.Forms.TextBox();
+            this.Txtmodificar_producto_codigo = new System.Windows.Forms.TextBox();
+            this.Cbomodificar_produntos_producto = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.Cbomodificar_produntos_producto = new System.Windows.Forms.ComboBox();
-            this.Txtmodificar_producto_codigo = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.Btnmodificar_producto_consultar = new System.Windows.Forms.Button();
             this.Tpgeliminarproducto = new System.Windows.Forms.TabPage();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.Btneliminar_productos_productos = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.Cboeliminar_produncto_producto = new System.Windows.Forms.ComboBox();
-            this.Btneliminar_productos_productos = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label10 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.tabControl1.SuspendLayout();
             this.Tpgingresarproductos.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.Tpgconsultarproducto.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgwconsultarproducto)).BeginInit();
             this.Tpgmodificarproducto.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.Tpgeliminarproducto.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // Btningresar_producto_limpiar
@@ -177,15 +177,23 @@
             this.Tpgingresarproductos.Text = "Ingresar producto";
             this.Tpgingresarproductos.UseVisualStyleBackColor = true;
             // 
-            // Txtingresar_producto_cantidad
+            // groupBox1
             // 
-            this.Txtingresar_producto_cantidad.Location = new System.Drawing.Point(151, 228);
-            this.Txtingresar_producto_cantidad.Margin = new System.Windows.Forms.Padding(4);
-            this.Txtingresar_producto_cantidad.Name = "Txtingresar_producto_cantidad";
-            this.Txtingresar_producto_cantidad.ShortcutsEnabled = false;
-            this.Txtingresar_producto_cantidad.Size = new System.Drawing.Size(132, 22);
-            this.Txtingresar_producto_cantidad.TabIndex = 10;
-            this.Txtingresar_producto_cantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txtingresar_producto_cantidad_KeyPress);
+            this.groupBox1.Controls.Add(this.Txtingresar_producto_valor);
+            this.groupBox1.Controls.Add(this.Txtingresar_producto_cantidad);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.Codigo);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.Btningresar_producto_limpiar);
+            this.groupBox1.Controls.Add(this.Btningresa_producto_guardar);
+            this.groupBox1.Controls.Add(this.Txtingresar_producto_descripcion);
+            this.groupBox1.Controls.Add(this.Txtingresar_producto_codigo);
+            this.groupBox1.Location = new System.Drawing.Point(73, 39);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(488, 304);
+            this.groupBox1.TabIndex = 11;
+            this.groupBox1.TabStop = false;
             // 
             // Txtingresar_producto_valor
             // 
@@ -197,14 +205,15 @@
             this.Txtingresar_producto_valor.TabIndex = 9;
             this.Txtingresar_producto_valor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txtingresar_producto_valor_KeyPress);
             // 
-            // Txtingresar_producto_descripcion
+            // Txtingresar_producto_cantidad
             // 
-            this.Txtingresar_producto_descripcion.Location = new System.Drawing.Point(151, 88);
-            this.Txtingresar_producto_descripcion.Margin = new System.Windows.Forms.Padding(4);
-            this.Txtingresar_producto_descripcion.Name = "Txtingresar_producto_descripcion";
-            this.Txtingresar_producto_descripcion.ShortcutsEnabled = false;
-            this.Txtingresar_producto_descripcion.Size = new System.Drawing.Size(132, 22);
-            this.Txtingresar_producto_descripcion.TabIndex = 8;
+            this.Txtingresar_producto_cantidad.Location = new System.Drawing.Point(151, 228);
+            this.Txtingresar_producto_cantidad.Margin = new System.Windows.Forms.Padding(4);
+            this.Txtingresar_producto_cantidad.Name = "Txtingresar_producto_cantidad";
+            this.Txtingresar_producto_cantidad.ShortcutsEnabled = false;
+            this.Txtingresar_producto_cantidad.Size = new System.Drawing.Size(132, 22);
+            this.Txtingresar_producto_cantidad.TabIndex = 10;
+            this.Txtingresar_producto_cantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txtingresar_producto_cantidad_KeyPress);
             // 
             // Btningresa_producto_guardar
             // 
@@ -217,6 +226,15 @@
             this.Btningresa_producto_guardar.Text = "Guardar";
             this.Btningresa_producto_guardar.UseVisualStyleBackColor = true;
             this.Btningresa_producto_guardar.Click += new System.EventHandler(this.Btningresa_producto_guardar_Click);
+            // 
+            // Txtingresar_producto_descripcion
+            // 
+            this.Txtingresar_producto_descripcion.Location = new System.Drawing.Point(151, 88);
+            this.Txtingresar_producto_descripcion.Margin = new System.Windows.Forms.Padding(4);
+            this.Txtingresar_producto_descripcion.Name = "Txtingresar_producto_descripcion";
+            this.Txtingresar_producto_descripcion.ShortcutsEnabled = false;
+            this.Txtingresar_producto_descripcion.Size = new System.Drawing.Size(132, 22);
+            this.Txtingresar_producto_descripcion.TabIndex = 8;
             // 
             // Tpgconsultarproducto
             // 
@@ -231,6 +249,18 @@
             this.Tpgconsultarproducto.Text = "Consultar productos";
             this.Tpgconsultarproducto.UseVisualStyleBackColor = true;
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.Btnconsultar_producto_mostrarproducto);
+            this.groupBox2.Controls.Add(this.Btn_consultar_producto_consultar);
+            this.groupBox2.Controls.Add(this.Cbxconsultar_producto_producto);
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Location = new System.Drawing.Point(70, 23);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(493, 146);
+            this.groupBox2.TabIndex = 5;
+            this.groupBox2.TabStop = false;
+            // 
             // Btnconsultar_producto_mostrarproducto
             // 
             this.Btnconsultar_producto_mostrarproducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -242,40 +272,6 @@
             this.Btnconsultar_producto_mostrarproducto.Text = "Mostrar todo";
             this.Btnconsultar_producto_mostrarproducto.UseVisualStyleBackColor = true;
             this.Btnconsultar_producto_mostrarproducto.Click += new System.EventHandler(this.Btnconsultar_producto_mostrarproducto_Click);
-            // 
-            // Cbxconsultar_producto_producto
-            // 
-            this.Cbxconsultar_producto_producto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.Cbxconsultar_producto_producto.FormattingEnabled = true;
-            this.Cbxconsultar_producto_producto.Location = new System.Drawing.Point(203, 25);
-            this.Cbxconsultar_producto_producto.Margin = new System.Windows.Forms.Padding(4);
-            this.Cbxconsultar_producto_producto.Name = "Cbxconsultar_producto_producto";
-            this.Cbxconsultar_producto_producto.Size = new System.Drawing.Size(160, 24);
-            this.Cbxconsultar_producto_producto.TabIndex = 3;
-            // 
-            // Dgwconsultarproducto
-            // 
-            this.Dgwconsultarproducto.AllowUserToResizeColumns = false;
-            this.Dgwconsultarproducto.AllowUserToResizeRows = false;
-            this.Dgwconsultarproducto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Dgwconsultarproducto.Location = new System.Drawing.Point(70, 187);
-            this.Dgwconsultarproducto.Margin = new System.Windows.Forms.Padding(4);
-            this.Dgwconsultarproducto.Name = "Dgwconsultarproducto";
-            this.Dgwconsultarproducto.ReadOnly = true;
-            this.Dgwconsultarproducto.RowHeadersWidth = 51;
-            this.Dgwconsultarproducto.Size = new System.Drawing.Size(493, 185);
-            this.Dgwconsultarproducto.TabIndex = 2;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(76, 35);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 16);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Productos";
             // 
             // Btn_consultar_producto_consultar
             // 
@@ -289,6 +285,41 @@
             this.Btn_consultar_producto_consultar.UseVisualStyleBackColor = true;
             this.Btn_consultar_producto_consultar.Click += new System.EventHandler(this.Btn_consultar_producto_consultar_Click);
             // 
+            // Cbxconsultar_producto_producto
+            // 
+            this.Cbxconsultar_producto_producto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Cbxconsultar_producto_producto.FormattingEnabled = true;
+            this.Cbxconsultar_producto_producto.Location = new System.Drawing.Point(203, 25);
+            this.Cbxconsultar_producto_producto.Margin = new System.Windows.Forms.Padding(4);
+            this.Cbxconsultar_producto_producto.Name = "Cbxconsultar_producto_producto";
+            this.Cbxconsultar_producto_producto.Size = new System.Drawing.Size(160, 24);
+            this.Cbxconsultar_producto_producto.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(76, 35);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(77, 16);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Productos";
+            // 
+            // Dgwconsultarproducto
+            // 
+            this.Dgwconsultarproducto.AllowUserToAddRows = false;
+            this.Dgwconsultarproducto.AllowUserToResizeColumns = false;
+            this.Dgwconsultarproducto.AllowUserToResizeRows = false;
+            this.Dgwconsultarproducto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Dgwconsultarproducto.Location = new System.Drawing.Point(70, 187);
+            this.Dgwconsultarproducto.Margin = new System.Windows.Forms.Padding(4);
+            this.Dgwconsultarproducto.Name = "Dgwconsultarproducto";
+            this.Dgwconsultarproducto.ReadOnly = true;
+            this.Dgwconsultarproducto.RowHeadersWidth = 51;
+            this.Dgwconsultarproducto.Size = new System.Drawing.Size(493, 185);
+            this.Dgwconsultarproducto.TabIndex = 2;
+            // 
             // Tpgmodificarproducto
             // 
             this.Tpgmodificarproducto.Controls.Add(this.groupBox3);
@@ -300,34 +331,25 @@
             this.Tpgmodificarproducto.Text = "Modificar productos";
             this.Tpgmodificarproducto.UseVisualStyleBackColor = true;
             // 
-            // Txtmodificar_producto_cantidad
+            // groupBox3
             // 
-            this.Txtmodificar_producto_cantidad.Location = new System.Drawing.Point(164, 275);
-            this.Txtmodificar_producto_cantidad.Margin = new System.Windows.Forms.Padding(4);
-            this.Txtmodificar_producto_cantidad.Name = "Txtmodificar_producto_cantidad";
-            this.Txtmodificar_producto_cantidad.ShortcutsEnabled = false;
-            this.Txtmodificar_producto_cantidad.Size = new System.Drawing.Size(132, 22);
-            this.Txtmodificar_producto_cantidad.TabIndex = 12;
-            this.Txtmodificar_producto_cantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txtmodificar_producto_cantidad_KeyPress);
-            // 
-            // Txtmodificar_producto_valor
-            // 
-            this.Txtmodificar_producto_valor.Location = new System.Drawing.Point(164, 234);
-            this.Txtmodificar_producto_valor.Margin = new System.Windows.Forms.Padding(4);
-            this.Txtmodificar_producto_valor.Name = "Txtmodificar_producto_valor";
-            this.Txtmodificar_producto_valor.ShortcutsEnabled = false;
-            this.Txtmodificar_producto_valor.Size = new System.Drawing.Size(132, 22);
-            this.Txtmodificar_producto_valor.TabIndex = 10;
-            this.Txtmodificar_producto_valor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txtmodificar_producto_valor_KeyPress);
-            // 
-            // Txtmodificar_producto_descripcion
-            // 
-            this.Txtmodificar_producto_descripcion.Location = new System.Drawing.Point(164, 189);
-            this.Txtmodificar_producto_descripcion.Margin = new System.Windows.Forms.Padding(4);
-            this.Txtmodificar_producto_descripcion.Name = "Txtmodificar_producto_descripcion";
-            this.Txtmodificar_producto_descripcion.ShortcutsEnabled = false;
-            this.Txtmodificar_producto_descripcion.Size = new System.Drawing.Size(132, 22);
-            this.Txtmodificar_producto_descripcion.TabIndex = 9;
+            this.groupBox3.Controls.Add(this.Btnmodificar_producto_guardarcambios);
+            this.groupBox3.Controls.Add(this.Txtmodificar_producto_cantidad);
+            this.groupBox3.Controls.Add(this.Btnmodificar_producto_consultar);
+            this.groupBox3.Controls.Add(this.Txtmodificar_producto_valor);
+            this.groupBox3.Controls.Add(this.label5);
+            this.groupBox3.Controls.Add(this.Txtmodificar_producto_descripcion);
+            this.groupBox3.Controls.Add(this.Txtmodificar_producto_codigo);
+            this.groupBox3.Controls.Add(this.Cbomodificar_produntos_producto);
+            this.groupBox3.Controls.Add(this.label9);
+            this.groupBox3.Controls.Add(this.label6);
+            this.groupBox3.Controls.Add(this.label8);
+            this.groupBox3.Controls.Add(this.label7);
+            this.groupBox3.Location = new System.Drawing.Point(143, 25);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(348, 363);
+            this.groupBox3.TabIndex = 13;
+            this.groupBox3.TabStop = false;
             // 
             // Btnmodificar_producto_guardarcambios
             // 
@@ -341,6 +363,77 @@
             this.Btnmodificar_producto_guardarcambios.UseVisualStyleBackColor = true;
             this.Btnmodificar_producto_guardarcambios.Click += new System.EventHandler(this.Btnmodificar_producto_guardarcambios_Click);
             // 
+            // Txtmodificar_producto_cantidad
+            // 
+            this.Txtmodificar_producto_cantidad.Location = new System.Drawing.Point(164, 275);
+            this.Txtmodificar_producto_cantidad.Margin = new System.Windows.Forms.Padding(4);
+            this.Txtmodificar_producto_cantidad.Name = "Txtmodificar_producto_cantidad";
+            this.Txtmodificar_producto_cantidad.ShortcutsEnabled = false;
+            this.Txtmodificar_producto_cantidad.Size = new System.Drawing.Size(132, 22);
+            this.Txtmodificar_producto_cantidad.TabIndex = 12;
+            this.Txtmodificar_producto_cantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txtmodificar_producto_cantidad_KeyPress);
+            // 
+            // Btnmodificar_producto_consultar
+            // 
+            this.Btnmodificar_producto_consultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btnmodificar_producto_consultar.Location = new System.Drawing.Point(186, 60);
+            this.Btnmodificar_producto_consultar.Margin = new System.Windows.Forms.Padding(4);
+            this.Btnmodificar_producto_consultar.Name = "Btnmodificar_producto_consultar";
+            this.Btnmodificar_producto_consultar.Size = new System.Drawing.Size(100, 28);
+            this.Btnmodificar_producto_consultar.TabIndex = 0;
+            this.Btnmodificar_producto_consultar.Text = "Consultar";
+            this.Btnmodificar_producto_consultar.UseVisualStyleBackColor = true;
+            this.Btnmodificar_producto_consultar.Click += new System.EventHandler(this.Btnmodificar_producto_consultar_Click);
+            // 
+            // Txtmodificar_producto_valor
+            // 
+            this.Txtmodificar_producto_valor.Location = new System.Drawing.Point(164, 234);
+            this.Txtmodificar_producto_valor.Margin = new System.Windows.Forms.Padding(4);
+            this.Txtmodificar_producto_valor.Name = "Txtmodificar_producto_valor";
+            this.Txtmodificar_producto_valor.ShortcutsEnabled = false;
+            this.Txtmodificar_producto_valor.Size = new System.Drawing.Size(132, 22);
+            this.Txtmodificar_producto_valor.TabIndex = 10;
+            this.Txtmodificar_producto_valor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txtmodificar_producto_valor_KeyPress);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(19, 26);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(77, 16);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Productos";
+            // 
+            // Txtmodificar_producto_descripcion
+            // 
+            this.Txtmodificar_producto_descripcion.Location = new System.Drawing.Point(164, 189);
+            this.Txtmodificar_producto_descripcion.Margin = new System.Windows.Forms.Padding(4);
+            this.Txtmodificar_producto_descripcion.Name = "Txtmodificar_producto_descripcion";
+            this.Txtmodificar_producto_descripcion.ShortcutsEnabled = false;
+            this.Txtmodificar_producto_descripcion.Size = new System.Drawing.Size(132, 22);
+            this.Txtmodificar_producto_descripcion.TabIndex = 9;
+            // 
+            // Txtmodificar_producto_codigo
+            // 
+            this.Txtmodificar_producto_codigo.Location = new System.Drawing.Point(164, 142);
+            this.Txtmodificar_producto_codigo.Margin = new System.Windows.Forms.Padding(4);
+            this.Txtmodificar_producto_codigo.Name = "Txtmodificar_producto_codigo";
+            this.Txtmodificar_producto_codigo.ReadOnly = true;
+            this.Txtmodificar_producto_codigo.Size = new System.Drawing.Size(132, 22);
+            this.Txtmodificar_producto_codigo.TabIndex = 2;
+            // 
+            // Cbomodificar_produntos_producto
+            // 
+            this.Cbomodificar_produntos_producto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Cbomodificar_produntos_producto.FormattingEnabled = true;
+            this.Cbomodificar_produntos_producto.Location = new System.Drawing.Point(163, 18);
+            this.Cbomodificar_produntos_producto.Margin = new System.Windows.Forms.Padding(4);
+            this.Cbomodificar_produntos_producto.Name = "Cbomodificar_produntos_producto";
+            this.Cbomodificar_produntos_producto.Size = new System.Drawing.Size(160, 24);
+            this.Cbomodificar_produntos_producto.TabIndex = 3;
+            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -351,6 +444,17 @@
             this.label9.Size = new System.Drawing.Size(69, 16);
             this.label9.TabIndex = 7;
             this.label9.Text = "Cantidad";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(19, 142);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(57, 16);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "Código";
             // 
             // label8
             // 
@@ -374,59 +478,6 @@
             this.label7.TabIndex = 5;
             this.label7.Text = "Descripción";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(19, 142);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(57, 16);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "Código";
-            // 
-            // Cbomodificar_produntos_producto
-            // 
-            this.Cbomodificar_produntos_producto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.Cbomodificar_produntos_producto.FormattingEnabled = true;
-            this.Cbomodificar_produntos_producto.Location = new System.Drawing.Point(163, 18);
-            this.Cbomodificar_produntos_producto.Margin = new System.Windows.Forms.Padding(4);
-            this.Cbomodificar_produntos_producto.Name = "Cbomodificar_produntos_producto";
-            this.Cbomodificar_produntos_producto.Size = new System.Drawing.Size(160, 24);
-            this.Cbomodificar_produntos_producto.TabIndex = 3;
-            // 
-            // Txtmodificar_producto_codigo
-            // 
-            this.Txtmodificar_producto_codigo.Location = new System.Drawing.Point(164, 142);
-            this.Txtmodificar_producto_codigo.Margin = new System.Windows.Forms.Padding(4);
-            this.Txtmodificar_producto_codigo.Name = "Txtmodificar_producto_codigo";
-            this.Txtmodificar_producto_codigo.ReadOnly = true;
-            this.Txtmodificar_producto_codigo.Size = new System.Drawing.Size(132, 22);
-            this.Txtmodificar_producto_codigo.TabIndex = 2;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(19, 26);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(77, 16);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Productos";
-            // 
-            // Btnmodificar_producto_consultar
-            // 
-            this.Btnmodificar_producto_consultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btnmodificar_producto_consultar.Location = new System.Drawing.Point(186, 60);
-            this.Btnmodificar_producto_consultar.Margin = new System.Windows.Forms.Padding(4);
-            this.Btnmodificar_producto_consultar.Name = "Btnmodificar_producto_consultar";
-            this.Btnmodificar_producto_consultar.Size = new System.Drawing.Size(100, 28);
-            this.Btnmodificar_producto_consultar.TabIndex = 0;
-            this.Btnmodificar_producto_consultar.Text = "Consultar";
-            this.Btnmodificar_producto_consultar.UseVisualStyleBackColor = true;
-            this.Btnmodificar_producto_consultar.Click += new System.EventHandler(this.Btnmodificar_producto_consultar_Click);
-            // 
             // Tpgeliminarproducto
             // 
             this.Tpgeliminarproducto.Controls.Add(this.groupBox4);
@@ -437,6 +488,28 @@
             this.Tpgeliminarproducto.TabIndex = 3;
             this.Tpgeliminarproducto.Text = "Eliminar Producto";
             this.Tpgeliminarproducto.UseVisualStyleBackColor = true;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.Btneliminar_productos_productos);
+            this.groupBox4.Controls.Add(this.label11);
+            this.groupBox4.Controls.Add(this.Cboeliminar_produncto_producto);
+            this.groupBox4.Location = new System.Drawing.Point(128, 76);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(384, 255);
+            this.groupBox4.TabIndex = 3;
+            this.groupBox4.TabStop = false;
+            // 
+            // Btneliminar_productos_productos
+            // 
+            this.Btneliminar_productos_productos.Location = new System.Drawing.Point(133, 155);
+            this.Btneliminar_productos_productos.Margin = new System.Windows.Forms.Padding(4);
+            this.Btneliminar_productos_productos.Name = "Btneliminar_productos_productos";
+            this.Btneliminar_productos_productos.Size = new System.Drawing.Size(100, 28);
+            this.Btneliminar_productos_productos.TabIndex = 0;
+            this.Btneliminar_productos_productos.Text = "Eliminar";
+            this.Btneliminar_productos_productos.UseVisualStyleBackColor = true;
+            this.Btneliminar_productos_productos.Click += new System.EventHandler(this.Btneliminar_productos_productos_Click);
             // 
             // label11
             // 
@@ -458,17 +531,6 @@
             this.Cboeliminar_produncto_producto.Name = "Cboeliminar_produncto_producto";
             this.Cboeliminar_produncto_producto.Size = new System.Drawing.Size(160, 24);
             this.Cboeliminar_produncto_producto.TabIndex = 1;
-            // 
-            // Btneliminar_productos_productos
-            // 
-            this.Btneliminar_productos_productos.Location = new System.Drawing.Point(133, 155);
-            this.Btneliminar_productos_productos.Margin = new System.Windows.Forms.Padding(4);
-            this.Btneliminar_productos_productos.Name = "Btneliminar_productos_productos";
-            this.Btneliminar_productos_productos.Size = new System.Drawing.Size(100, 28);
-            this.Btneliminar_productos_productos.TabIndex = 0;
-            this.Btneliminar_productos_productos.Text = "Eliminar";
-            this.Btneliminar_productos_productos.UseVisualStyleBackColor = true;
-            this.Btneliminar_productos_productos.Click += new System.EventHandler(this.Btneliminar_productos_productos_Click);
             // 
             // dataGridView1
             // 
@@ -501,67 +563,6 @@
             this.pictureBox1.TabIndex = 36;
             this.pictureBox1.TabStop = false;
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.Txtingresar_producto_valor);
-            this.groupBox1.Controls.Add(this.Txtingresar_producto_cantidad);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.Codigo);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.Btningresar_producto_limpiar);
-            this.groupBox1.Controls.Add(this.Btningresa_producto_guardar);
-            this.groupBox1.Controls.Add(this.Txtingresar_producto_descripcion);
-            this.groupBox1.Controls.Add(this.Txtingresar_producto_codigo);
-            this.groupBox1.Location = new System.Drawing.Point(73, 39);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(488, 304);
-            this.groupBox1.TabIndex = 11;
-            this.groupBox1.TabStop = false;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.Btnconsultar_producto_mostrarproducto);
-            this.groupBox2.Controls.Add(this.Btn_consultar_producto_consultar);
-            this.groupBox2.Controls.Add(this.Cbxconsultar_producto_producto);
-            this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Location = new System.Drawing.Point(70, 23);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(493, 146);
-            this.groupBox2.TabIndex = 5;
-            this.groupBox2.TabStop = false;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.Btnmodificar_producto_guardarcambios);
-            this.groupBox3.Controls.Add(this.Txtmodificar_producto_cantidad);
-            this.groupBox3.Controls.Add(this.Btnmodificar_producto_consultar);
-            this.groupBox3.Controls.Add(this.Txtmodificar_producto_valor);
-            this.groupBox3.Controls.Add(this.label5);
-            this.groupBox3.Controls.Add(this.Txtmodificar_producto_descripcion);
-            this.groupBox3.Controls.Add(this.Txtmodificar_producto_codigo);
-            this.groupBox3.Controls.Add(this.Cbomodificar_produntos_producto);
-            this.groupBox3.Controls.Add(this.label9);
-            this.groupBox3.Controls.Add(this.label6);
-            this.groupBox3.Controls.Add(this.label8);
-            this.groupBox3.Controls.Add(this.label7);
-            this.groupBox3.Location = new System.Drawing.Point(143, 25);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(348, 363);
-            this.groupBox3.TabIndex = 13;
-            this.groupBox3.TabStop = false;
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.Btneliminar_productos_productos);
-            this.groupBox4.Controls.Add(this.label11);
-            this.groupBox4.Controls.Add(this.Cboeliminar_produncto_producto);
-            this.groupBox4.Location = new System.Drawing.Point(128, 76);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(384, 255);
-            this.groupBox4.TabIndex = 3;
-            this.groupBox4.TabStop = false;
-            // 
             // Gestion_productos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -579,20 +580,20 @@
             this.Load += new System.EventHandler(this.Gestion_productos_Load);
             this.tabControl1.ResumeLayout(false);
             this.Tpgingresarproductos.ResumeLayout(false);
-            this.Tpgconsultarproducto.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Dgwconsultarproducto)).EndInit();
-            this.Tpgmodificarproducto.ResumeLayout(false);
-            this.Tpgeliminarproducto.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.Tpgconsultarproducto.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Dgwconsultarproducto)).EndInit();
+            this.Tpgmodificarproducto.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.Tpgeliminarproducto.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

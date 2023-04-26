@@ -32,59 +32,59 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Tpgingresar_vendedor = new System.Windows.Forms.TabPage();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.TxtRepetir_Contraseña = new System.Windows.Forms.TextBox();
             this.Txtingresar_vendedor_nombre = new System.Windows.Forms.TextBox();
-            this.Codigo = new System.Windows.Forms.Label();
-            this.Txtingresar_vendedor_contrasena = new System.Windows.Forms.TextBox();
-            this.Btningresar_vendedor_limpiar = new System.Windows.Forms.Button();
-            this.Txtingresar_vendedor_usuario = new System.Windows.Forms.TextBox();
-            this.Txtingresar_vendedor_codigo = new System.Windows.Forms.TextBox();
-            this.Btningresa_vendedor_guardar = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.TxtRepetir_Contraseña = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.Codigo = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.Txtingresar_vendedor_contrasena = new System.Windows.Forms.TextBox();
+            this.Btningresa_vendedor_guardar = new System.Windows.Forms.Button();
+            this.Btningresar_vendedor_limpiar = new System.Windows.Forms.Button();
+            this.Txtingresar_vendedor_codigo = new System.Windows.Forms.TextBox();
+            this.Txtingresar_vendedor_usuario = new System.Windows.Forms.TextBox();
             this.Tpgconsultarvendedor = new System.Windows.Forms.TabPage();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.Btnconsultar_vendedor_mostrarvendedor = new System.Windows.Forms.Button();
-            this.Cbxconsultar_vendedor_vendedor = new System.Windows.Forms.ComboBox();
-            this.Dgwconsultarvendedor = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
             this.Btn_consultar_vendedor_consultar = new System.Windows.Forms.Button();
+            this.Cbxconsultar_vendedor_vendedor = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Dgwconsultarvendedor = new System.Windows.Forms.DataGridView();
             this.Tpgmodificarvendedor = new System.Windows.Forms.TabPage();
-            this.Txtmodificar_vendedor_nombre = new System.Windows.Forms.TextBox();
-            this.Txtmodificar_vendedor_contrasena = new System.Windows.Forms.TextBox();
-            this.Txtmodificar_vendedor_usuario = new System.Windows.Forms.TextBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.Btnmodificar_vendedor_guardarcambios = new System.Windows.Forms.Button();
+            this.Txtmodificar_vendedor_nombre = new System.Windows.Forms.TextBox();
+            this.Btnmodificar_vendedor_consultar = new System.Windows.Forms.Button();
+            this.Txtmodificar_vendedor_contrasena = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.Txtmodificar_vendedor_usuario = new System.Windows.Forms.TextBox();
+            this.Txtmodificar_vendedor_codigo = new System.Windows.Forms.TextBox();
+            this.Cbomodificar_vendedor_usuario = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.Cbomodificar_vendedor_usuario = new System.Windows.Forms.ComboBox();
-            this.Txtmodificar_vendedor_codigo = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.Btnmodificar_vendedor_consultar = new System.Windows.Forms.Button();
             this.Tpgeliminarvendedor = new System.Windows.Forms.TabPage();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.Btneliminar_vendedor_vendedor = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.Cboeliminar_vendedor_usuario = new System.Windows.Forms.ComboBox();
-            this.Btneliminar_vendedor_vendedor = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.Tpgingresar_vendedor.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.Tpgconsultarvendedor.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgwconsultarvendedor)).BeginInit();
             this.Tpgmodificarvendedor.SuspendLayout();
-            this.Tpgeliminarvendedor.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.Tpgeliminarvendedor.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -123,6 +123,26 @@
             this.Tpgingresar_vendedor.Text = "Ingresar vendedor";
             this.Tpgingresar_vendedor.UseVisualStyleBackColor = true;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.label10);
+            this.groupBox1.Controls.Add(this.Txtingresar_vendedor_nombre);
+            this.groupBox1.Controls.Add(this.TxtRepetir_Contraseña);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.Codigo);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.Txtingresar_vendedor_contrasena);
+            this.groupBox1.Controls.Add(this.Btningresa_vendedor_guardar);
+            this.groupBox1.Controls.Add(this.Btningresar_vendedor_limpiar);
+            this.groupBox1.Controls.Add(this.Txtingresar_vendedor_codigo);
+            this.groupBox1.Controls.Add(this.Txtingresar_vendedor_usuario);
+            this.groupBox1.Location = new System.Drawing.Point(38, 32);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(561, 352);
+            this.groupBox1.TabIndex = 37;
+            this.groupBox1.TabStop = false;
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -134,6 +154,16 @@
             this.label10.TabIndex = 12;
             this.label10.Text = "Repetir Contraseña";
             // 
+            // Txtingresar_vendedor_nombre
+            // 
+            this.Txtingresar_vendedor_nombre.Location = new System.Drawing.Point(206, 276);
+            this.Txtingresar_vendedor_nombre.Margin = new System.Windows.Forms.Padding(4);
+            this.Txtingresar_vendedor_nombre.Name = "Txtingresar_vendedor_nombre";
+            this.Txtingresar_vendedor_nombre.ShortcutsEnabled = false;
+            this.Txtingresar_vendedor_nombre.Size = new System.Drawing.Size(132, 22);
+            this.Txtingresar_vendedor_nombre.TabIndex = 10;
+            this.Txtingresar_vendedor_nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txtingresar_vendedor_nombre_KeyPress);
+            // 
             // TxtRepetir_Contraseña
             // 
             this.TxtRepetir_Contraseña.Location = new System.Drawing.Point(206, 229);
@@ -144,15 +174,27 @@
             this.TxtRepetir_Contraseña.Size = new System.Drawing.Size(132, 22);
             this.TxtRepetir_Contraseña.TabIndex = 11;
             // 
-            // Txtingresar_vendedor_nombre
+            // label4
             // 
-            this.Txtingresar_vendedor_nombre.Location = new System.Drawing.Point(206, 276);
-            this.Txtingresar_vendedor_nombre.Margin = new System.Windows.Forms.Padding(4);
-            this.Txtingresar_vendedor_nombre.Name = "Txtingresar_vendedor_nombre";
-            this.Txtingresar_vendedor_nombre.ShortcutsEnabled = false;
-            this.Txtingresar_vendedor_nombre.Size = new System.Drawing.Size(132, 22);
-            this.Txtingresar_vendedor_nombre.TabIndex = 10;
-            this.Txtingresar_vendedor_nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txtingresar_vendedor_nombre_KeyPress);
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(48, 276);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(62, 16);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Nombre";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(48, 176);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(86, 16);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Contraseña";
             // 
             // Codigo
             // 
@@ -165,6 +207,17 @@
             this.Codigo.TabIndex = 1;
             this.Codigo.Text = "Código";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(48, 104);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(61, 16);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Usuario";
+            // 
             // Txtingresar_vendedor_contrasena
             // 
             this.Txtingresar_vendedor_contrasena.Location = new System.Drawing.Point(206, 175);
@@ -174,37 +227,6 @@
             this.Txtingresar_vendedor_contrasena.ShortcutsEnabled = false;
             this.Txtingresar_vendedor_contrasena.Size = new System.Drawing.Size(132, 22);
             this.Txtingresar_vendedor_contrasena.TabIndex = 9;
-            // 
-            // Btningresar_vendedor_limpiar
-            // 
-            this.Btningresar_vendedor_limpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btningresar_vendedor_limpiar.Location = new System.Drawing.Point(414, 203);
-            this.Btningresar_vendedor_limpiar.Margin = new System.Windows.Forms.Padding(4);
-            this.Btningresar_vendedor_limpiar.Name = "Btningresar_vendedor_limpiar";
-            this.Btningresar_vendedor_limpiar.Size = new System.Drawing.Size(100, 28);
-            this.Btningresar_vendedor_limpiar.TabIndex = 0;
-            this.Btningresar_vendedor_limpiar.Text = "Limpiar";
-            this.Btningresar_vendedor_limpiar.UseVisualStyleBackColor = true;
-            this.Btningresar_vendedor_limpiar.Click += new System.EventHandler(this.Btningresar_vendedor_limpiar_Click);
-            // 
-            // Txtingresar_vendedor_usuario
-            // 
-            this.Txtingresar_vendedor_usuario.Location = new System.Drawing.Point(206, 104);
-            this.Txtingresar_vendedor_usuario.Margin = new System.Windows.Forms.Padding(4);
-            this.Txtingresar_vendedor_usuario.Name = "Txtingresar_vendedor_usuario";
-            this.Txtingresar_vendedor_usuario.ShortcutsEnabled = false;
-            this.Txtingresar_vendedor_usuario.Size = new System.Drawing.Size(132, 22);
-            this.Txtingresar_vendedor_usuario.TabIndex = 8;
-            // 
-            // Txtingresar_vendedor_codigo
-            // 
-            this.Txtingresar_vendedor_codigo.Location = new System.Drawing.Point(206, 53);
-            this.Txtingresar_vendedor_codigo.Margin = new System.Windows.Forms.Padding(4);
-            this.Txtingresar_vendedor_codigo.Name = "Txtingresar_vendedor_codigo";
-            this.Txtingresar_vendedor_codigo.ShortcutsEnabled = false;
-            this.Txtingresar_vendedor_codigo.Size = new System.Drawing.Size(132, 22);
-            this.Txtingresar_vendedor_codigo.TabIndex = 2;
-            this.Txtingresar_vendedor_codigo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txtingresar_vendedor_codigo_KeyPress);
             // 
             // Btningresa_vendedor_guardar
             // 
@@ -218,38 +240,36 @@
             this.Btningresa_vendedor_guardar.UseVisualStyleBackColor = true;
             this.Btningresa_vendedor_guardar.Click += new System.EventHandler(this.Btningresa_vendedor_guardar_Click);
             // 
-            // label2
+            // Btningresar_vendedor_limpiar
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(48, 104);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 16);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Usuario";
+            this.Btningresar_vendedor_limpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btningresar_vendedor_limpiar.Location = new System.Drawing.Point(414, 203);
+            this.Btningresar_vendedor_limpiar.Margin = new System.Windows.Forms.Padding(4);
+            this.Btningresar_vendedor_limpiar.Name = "Btningresar_vendedor_limpiar";
+            this.Btningresar_vendedor_limpiar.Size = new System.Drawing.Size(100, 28);
+            this.Btningresar_vendedor_limpiar.TabIndex = 0;
+            this.Btningresar_vendedor_limpiar.Text = "Limpiar";
+            this.Btningresar_vendedor_limpiar.UseVisualStyleBackColor = true;
+            this.Btningresar_vendedor_limpiar.Click += new System.EventHandler(this.Btningresar_vendedor_limpiar_Click);
             // 
-            // label3
+            // Txtingresar_vendedor_codigo
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(48, 176);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 16);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Contraseña";
+            this.Txtingresar_vendedor_codigo.Location = new System.Drawing.Point(206, 53);
+            this.Txtingresar_vendedor_codigo.Margin = new System.Windows.Forms.Padding(4);
+            this.Txtingresar_vendedor_codigo.Name = "Txtingresar_vendedor_codigo";
+            this.Txtingresar_vendedor_codigo.ShortcutsEnabled = false;
+            this.Txtingresar_vendedor_codigo.Size = new System.Drawing.Size(132, 22);
+            this.Txtingresar_vendedor_codigo.TabIndex = 2;
+            this.Txtingresar_vendedor_codigo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txtingresar_vendedor_codigo_KeyPress);
             // 
-            // label4
+            // Txtingresar_vendedor_usuario
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(48, 276);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(62, 16);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Nombre";
+            this.Txtingresar_vendedor_usuario.Location = new System.Drawing.Point(206, 104);
+            this.Txtingresar_vendedor_usuario.Margin = new System.Windows.Forms.Padding(4);
+            this.Txtingresar_vendedor_usuario.Name = "Txtingresar_vendedor_usuario";
+            this.Txtingresar_vendedor_usuario.ShortcutsEnabled = false;
+            this.Txtingresar_vendedor_usuario.Size = new System.Drawing.Size(132, 22);
+            this.Txtingresar_vendedor_usuario.TabIndex = 8;
             // 
             // Tpgconsultarvendedor
             // 
@@ -264,6 +284,18 @@
             this.Tpgconsultarvendedor.Text = "Consultar vendedor";
             this.Tpgconsultarvendedor.UseVisualStyleBackColor = true;
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.Btnconsultar_vendedor_mostrarvendedor);
+            this.groupBox2.Controls.Add(this.Btn_consultar_vendedor_consultar);
+            this.groupBox2.Controls.Add(this.Cbxconsultar_vendedor_vendedor);
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Location = new System.Drawing.Point(72, 33);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(493, 141);
+            this.groupBox2.TabIndex = 5;
+            this.groupBox2.TabStop = false;
+            // 
             // Btnconsultar_vendedor_mostrarvendedor
             // 
             this.Btnconsultar_vendedor_mostrarvendedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -275,40 +307,6 @@
             this.Btnconsultar_vendedor_mostrarvendedor.Text = "Mostrar todo";
             this.Btnconsultar_vendedor_mostrarvendedor.UseVisualStyleBackColor = true;
             this.Btnconsultar_vendedor_mostrarvendedor.Click += new System.EventHandler(this.Btnconsultar_vendedor_mostrarvendedor_Click);
-            // 
-            // Cbxconsultar_vendedor_vendedor
-            // 
-            this.Cbxconsultar_vendedor_vendedor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.Cbxconsultar_vendedor_vendedor.FormattingEnabled = true;
-            this.Cbxconsultar_vendedor_vendedor.Location = new System.Drawing.Point(203, 24);
-            this.Cbxconsultar_vendedor_vendedor.Margin = new System.Windows.Forms.Padding(4);
-            this.Cbxconsultar_vendedor_vendedor.Name = "Cbxconsultar_vendedor_vendedor";
-            this.Cbxconsultar_vendedor_vendedor.Size = new System.Drawing.Size(160, 24);
-            this.Cbxconsultar_vendedor_vendedor.TabIndex = 3;
-            // 
-            // Dgwconsultarvendedor
-            // 
-            this.Dgwconsultarvendedor.AllowUserToResizeColumns = false;
-            this.Dgwconsultarvendedor.AllowUserToResizeRows = false;
-            this.Dgwconsultarvendedor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Dgwconsultarvendedor.Location = new System.Drawing.Point(72, 204);
-            this.Dgwconsultarvendedor.Margin = new System.Windows.Forms.Padding(4);
-            this.Dgwconsultarvendedor.Name = "Dgwconsultarvendedor";
-            this.Dgwconsultarvendedor.ReadOnly = true;
-            this.Dgwconsultarvendedor.RowHeadersWidth = 51;
-            this.Dgwconsultarvendedor.Size = new System.Drawing.Size(493, 185);
-            this.Dgwconsultarvendedor.TabIndex = 2;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(76, 34);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 16);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Vendedores";
             // 
             // Btn_consultar_vendedor_consultar
             // 
@@ -322,6 +320,41 @@
             this.Btn_consultar_vendedor_consultar.UseVisualStyleBackColor = true;
             this.Btn_consultar_vendedor_consultar.Click += new System.EventHandler(this.Btn_consultar_vendedor_consultar_Click);
             // 
+            // Cbxconsultar_vendedor_vendedor
+            // 
+            this.Cbxconsultar_vendedor_vendedor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Cbxconsultar_vendedor_vendedor.FormattingEnabled = true;
+            this.Cbxconsultar_vendedor_vendedor.Location = new System.Drawing.Point(203, 24);
+            this.Cbxconsultar_vendedor_vendedor.Margin = new System.Windows.Forms.Padding(4);
+            this.Cbxconsultar_vendedor_vendedor.Name = "Cbxconsultar_vendedor_vendedor";
+            this.Cbxconsultar_vendedor_vendedor.Size = new System.Drawing.Size(160, 24);
+            this.Cbxconsultar_vendedor_vendedor.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(76, 34);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(92, 16);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Vendedores";
+            // 
+            // Dgwconsultarvendedor
+            // 
+            this.Dgwconsultarvendedor.AllowUserToAddRows = false;
+            this.Dgwconsultarvendedor.AllowUserToResizeColumns = false;
+            this.Dgwconsultarvendedor.AllowUserToResizeRows = false;
+            this.Dgwconsultarvendedor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Dgwconsultarvendedor.Location = new System.Drawing.Point(72, 204);
+            this.Dgwconsultarvendedor.Margin = new System.Windows.Forms.Padding(4);
+            this.Dgwconsultarvendedor.Name = "Dgwconsultarvendedor";
+            this.Dgwconsultarvendedor.ReadOnly = true;
+            this.Dgwconsultarvendedor.RowHeadersWidth = 51;
+            this.Dgwconsultarvendedor.Size = new System.Drawing.Size(493, 185);
+            this.Dgwconsultarvendedor.TabIndex = 2;
+            // 
             // Tpgmodificarvendedor
             // 
             this.Tpgmodificarvendedor.Controls.Add(this.groupBox3);
@@ -333,34 +366,25 @@
             this.Tpgmodificarvendedor.Text = "Modificar vendedor";
             this.Tpgmodificarvendedor.UseVisualStyleBackColor = true;
             // 
-            // Txtmodificar_vendedor_nombre
+            // groupBox3
             // 
-            this.Txtmodificar_vendedor_nombre.Location = new System.Drawing.Point(184, 278);
-            this.Txtmodificar_vendedor_nombre.Margin = new System.Windows.Forms.Padding(4);
-            this.Txtmodificar_vendedor_nombre.Name = "Txtmodificar_vendedor_nombre";
-            this.Txtmodificar_vendedor_nombre.ShortcutsEnabled = false;
-            this.Txtmodificar_vendedor_nombre.Size = new System.Drawing.Size(132, 22);
-            this.Txtmodificar_vendedor_nombre.TabIndex = 12;
-            this.Txtmodificar_vendedor_nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txtmodificar_vendedor_nombre_KeyPress);
-            // 
-            // Txtmodificar_vendedor_contrasena
-            // 
-            this.Txtmodificar_vendedor_contrasena.Location = new System.Drawing.Point(185, 237);
-            this.Txtmodificar_vendedor_contrasena.Margin = new System.Windows.Forms.Padding(4);
-            this.Txtmodificar_vendedor_contrasena.Name = "Txtmodificar_vendedor_contrasena";
-            this.Txtmodificar_vendedor_contrasena.ReadOnly = true;
-            this.Txtmodificar_vendedor_contrasena.ShortcutsEnabled = false;
-            this.Txtmodificar_vendedor_contrasena.Size = new System.Drawing.Size(132, 22);
-            this.Txtmodificar_vendedor_contrasena.TabIndex = 10;
-            // 
-            // Txtmodificar_vendedor_usuario
-            // 
-            this.Txtmodificar_vendedor_usuario.Location = new System.Drawing.Point(185, 186);
-            this.Txtmodificar_vendedor_usuario.Margin = new System.Windows.Forms.Padding(4);
-            this.Txtmodificar_vendedor_usuario.Name = "Txtmodificar_vendedor_usuario";
-            this.Txtmodificar_vendedor_usuario.ShortcutsEnabled = false;
-            this.Txtmodificar_vendedor_usuario.Size = new System.Drawing.Size(132, 22);
-            this.Txtmodificar_vendedor_usuario.TabIndex = 9;
+            this.groupBox3.Controls.Add(this.Btnmodificar_vendedor_guardarcambios);
+            this.groupBox3.Controls.Add(this.Txtmodificar_vendedor_nombre);
+            this.groupBox3.Controls.Add(this.Btnmodificar_vendedor_consultar);
+            this.groupBox3.Controls.Add(this.Txtmodificar_vendedor_contrasena);
+            this.groupBox3.Controls.Add(this.label5);
+            this.groupBox3.Controls.Add(this.Txtmodificar_vendedor_usuario);
+            this.groupBox3.Controls.Add(this.Txtmodificar_vendedor_codigo);
+            this.groupBox3.Controls.Add(this.Cbomodificar_vendedor_usuario);
+            this.groupBox3.Controls.Add(this.label9);
+            this.groupBox3.Controls.Add(this.label6);
+            this.groupBox3.Controls.Add(this.label8);
+            this.groupBox3.Controls.Add(this.label7);
+            this.groupBox3.Location = new System.Drawing.Point(135, 17);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(374, 386);
+            this.groupBox3.TabIndex = 13;
+            this.groupBox3.TabStop = false;
             // 
             // Btnmodificar_vendedor_guardarcambios
             // 
@@ -374,6 +398,79 @@
             this.Btnmodificar_vendedor_guardarcambios.UseVisualStyleBackColor = true;
             this.Btnmodificar_vendedor_guardarcambios.Click += new System.EventHandler(this.Btnmodificar_vendedor_guardarcambios_Click);
             // 
+            // Txtmodificar_vendedor_nombre
+            // 
+            this.Txtmodificar_vendedor_nombre.Location = new System.Drawing.Point(184, 278);
+            this.Txtmodificar_vendedor_nombre.Margin = new System.Windows.Forms.Padding(4);
+            this.Txtmodificar_vendedor_nombre.Name = "Txtmodificar_vendedor_nombre";
+            this.Txtmodificar_vendedor_nombre.ShortcutsEnabled = false;
+            this.Txtmodificar_vendedor_nombre.Size = new System.Drawing.Size(132, 22);
+            this.Txtmodificar_vendedor_nombre.TabIndex = 12;
+            this.Txtmodificar_vendedor_nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txtmodificar_vendedor_nombre_KeyPress);
+            // 
+            // Btnmodificar_vendedor_consultar
+            // 
+            this.Btnmodificar_vendedor_consultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btnmodificar_vendedor_consultar.Location = new System.Drawing.Point(209, 64);
+            this.Btnmodificar_vendedor_consultar.Margin = new System.Windows.Forms.Padding(4);
+            this.Btnmodificar_vendedor_consultar.Name = "Btnmodificar_vendedor_consultar";
+            this.Btnmodificar_vendedor_consultar.Size = new System.Drawing.Size(100, 28);
+            this.Btnmodificar_vendedor_consultar.TabIndex = 0;
+            this.Btnmodificar_vendedor_consultar.Text = "Consultar";
+            this.Btnmodificar_vendedor_consultar.UseVisualStyleBackColor = true;
+            this.Btnmodificar_vendedor_consultar.Click += new System.EventHandler(this.Btnmodificar_vendedor_consultar_Click);
+            // 
+            // Txtmodificar_vendedor_contrasena
+            // 
+            this.Txtmodificar_vendedor_contrasena.Location = new System.Drawing.Point(185, 237);
+            this.Txtmodificar_vendedor_contrasena.Margin = new System.Windows.Forms.Padding(4);
+            this.Txtmodificar_vendedor_contrasena.Name = "Txtmodificar_vendedor_contrasena";
+            this.Txtmodificar_vendedor_contrasena.ReadOnly = true;
+            this.Txtmodificar_vendedor_contrasena.ShortcutsEnabled = false;
+            this.Txtmodificar_vendedor_contrasena.Size = new System.Drawing.Size(132, 22);
+            this.Txtmodificar_vendedor_contrasena.TabIndex = 10;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(32, 21);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(92, 16);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Vendedores";
+            // 
+            // Txtmodificar_vendedor_usuario
+            // 
+            this.Txtmodificar_vendedor_usuario.Location = new System.Drawing.Point(185, 186);
+            this.Txtmodificar_vendedor_usuario.Margin = new System.Windows.Forms.Padding(4);
+            this.Txtmodificar_vendedor_usuario.Name = "Txtmodificar_vendedor_usuario";
+            this.Txtmodificar_vendedor_usuario.ShortcutsEnabled = false;
+            this.Txtmodificar_vendedor_usuario.Size = new System.Drawing.Size(132, 22);
+            this.Txtmodificar_vendedor_usuario.TabIndex = 9;
+            // 
+            // Txtmodificar_vendedor_codigo
+            // 
+            this.Txtmodificar_vendedor_codigo.Location = new System.Drawing.Point(184, 124);
+            this.Txtmodificar_vendedor_codigo.Margin = new System.Windows.Forms.Padding(4);
+            this.Txtmodificar_vendedor_codigo.Name = "Txtmodificar_vendedor_codigo";
+            this.Txtmodificar_vendedor_codigo.ReadOnly = true;
+            this.Txtmodificar_vendedor_codigo.ShortcutsEnabled = false;
+            this.Txtmodificar_vendedor_codigo.Size = new System.Drawing.Size(132, 22);
+            this.Txtmodificar_vendedor_codigo.TabIndex = 2;
+            // 
+            // Cbomodificar_vendedor_usuario
+            // 
+            this.Cbomodificar_vendedor_usuario.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Cbomodificar_vendedor_usuario.FormattingEnabled = true;
+            this.Cbomodificar_vendedor_usuario.Location = new System.Drawing.Point(184, 21);
+            this.Cbomodificar_vendedor_usuario.Margin = new System.Windows.Forms.Padding(4);
+            this.Cbomodificar_vendedor_usuario.Name = "Cbomodificar_vendedor_usuario";
+            this.Cbomodificar_vendedor_usuario.Size = new System.Drawing.Size(160, 24);
+            this.Cbomodificar_vendedor_usuario.TabIndex = 3;
+            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -385,6 +482,18 @@
             this.label9.Size = new System.Drawing.Size(62, 16);
             this.label9.TabIndex = 7;
             this.label9.Text = "Nombre";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Black;
+            this.label6.Location = new System.Drawing.Point(37, 127);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(57, 16);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "Código";
             // 
             // label8
             // 
@@ -410,62 +519,6 @@
             this.label7.TabIndex = 5;
             this.label7.Text = "Usuario";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(37, 127);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(57, 16);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "Código";
-            // 
-            // Cbomodificar_vendedor_usuario
-            // 
-            this.Cbomodificar_vendedor_usuario.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.Cbomodificar_vendedor_usuario.FormattingEnabled = true;
-            this.Cbomodificar_vendedor_usuario.Location = new System.Drawing.Point(184, 21);
-            this.Cbomodificar_vendedor_usuario.Margin = new System.Windows.Forms.Padding(4);
-            this.Cbomodificar_vendedor_usuario.Name = "Cbomodificar_vendedor_usuario";
-            this.Cbomodificar_vendedor_usuario.Size = new System.Drawing.Size(160, 24);
-            this.Cbomodificar_vendedor_usuario.TabIndex = 3;
-            // 
-            // Txtmodificar_vendedor_codigo
-            // 
-            this.Txtmodificar_vendedor_codigo.Location = new System.Drawing.Point(184, 124);
-            this.Txtmodificar_vendedor_codigo.Margin = new System.Windows.Forms.Padding(4);
-            this.Txtmodificar_vendedor_codigo.Name = "Txtmodificar_vendedor_codigo";
-            this.Txtmodificar_vendedor_codigo.ReadOnly = true;
-            this.Txtmodificar_vendedor_codigo.ShortcutsEnabled = false;
-            this.Txtmodificar_vendedor_codigo.Size = new System.Drawing.Size(132, 22);
-            this.Txtmodificar_vendedor_codigo.TabIndex = 2;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(32, 21);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(92, 16);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Vendedores";
-            // 
-            // Btnmodificar_vendedor_consultar
-            // 
-            this.Btnmodificar_vendedor_consultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btnmodificar_vendedor_consultar.Location = new System.Drawing.Point(209, 64);
-            this.Btnmodificar_vendedor_consultar.Margin = new System.Windows.Forms.Padding(4);
-            this.Btnmodificar_vendedor_consultar.Name = "Btnmodificar_vendedor_consultar";
-            this.Btnmodificar_vendedor_consultar.Size = new System.Drawing.Size(100, 28);
-            this.Btnmodificar_vendedor_consultar.TabIndex = 0;
-            this.Btnmodificar_vendedor_consultar.Text = "Consultar";
-            this.Btnmodificar_vendedor_consultar.UseVisualStyleBackColor = true;
-            this.Btnmodificar_vendedor_consultar.Click += new System.EventHandler(this.Btnmodificar_vendedor_consultar_Click);
-            // 
             // Tpgeliminarvendedor
             // 
             this.Tpgeliminarvendedor.Controls.Add(this.groupBox4);
@@ -476,6 +529,29 @@
             this.Tpgeliminarvendedor.TabIndex = 3;
             this.Tpgeliminarvendedor.Text = "Eliminar vendedor";
             this.Tpgeliminarvendedor.UseVisualStyleBackColor = true;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.Btneliminar_vendedor_vendedor);
+            this.groupBox4.Controls.Add(this.label11);
+            this.groupBox4.Controls.Add(this.Cboeliminar_vendedor_usuario);
+            this.groupBox4.Location = new System.Drawing.Point(98, 70);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(445, 270);
+            this.groupBox4.TabIndex = 3;
+            this.groupBox4.TabStop = false;
+            // 
+            // Btneliminar_vendedor_vendedor
+            // 
+            this.Btneliminar_vendedor_vendedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btneliminar_vendedor_vendedor.Location = new System.Drawing.Point(155, 168);
+            this.Btneliminar_vendedor_vendedor.Margin = new System.Windows.Forms.Padding(4);
+            this.Btneliminar_vendedor_vendedor.Name = "Btneliminar_vendedor_vendedor";
+            this.Btneliminar_vendedor_vendedor.Size = new System.Drawing.Size(100, 28);
+            this.Btneliminar_vendedor_vendedor.TabIndex = 0;
+            this.Btneliminar_vendedor_vendedor.Text = "Eliminar";
+            this.Btneliminar_vendedor_vendedor.UseVisualStyleBackColor = true;
+            this.Btneliminar_vendedor_vendedor.Click += new System.EventHandler(this.Btneliminar_vendedor_vendedor_Click);
             // 
             // label11
             // 
@@ -497,18 +573,6 @@
             this.Cboeliminar_vendedor_usuario.Name = "Cboeliminar_vendedor_usuario";
             this.Cboeliminar_vendedor_usuario.Size = new System.Drawing.Size(160, 24);
             this.Cboeliminar_vendedor_usuario.TabIndex = 1;
-            // 
-            // Btneliminar_vendedor_vendedor
-            // 
-            this.Btneliminar_vendedor_vendedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btneliminar_vendedor_vendedor.Location = new System.Drawing.Point(155, 168);
-            this.Btneliminar_vendedor_vendedor.Margin = new System.Windows.Forms.Padding(4);
-            this.Btneliminar_vendedor_vendedor.Name = "Btneliminar_vendedor_vendedor";
-            this.Btneliminar_vendedor_vendedor.Size = new System.Drawing.Size(100, 28);
-            this.Btneliminar_vendedor_vendedor.TabIndex = 0;
-            this.Btneliminar_vendedor_vendedor.Text = "Eliminar";
-            this.Btneliminar_vendedor_vendedor.UseVisualStyleBackColor = true;
-            this.Btneliminar_vendedor_vendedor.Click += new System.EventHandler(this.Btneliminar_vendedor_vendedor_Click);
             // 
             // label12
             // 
@@ -532,69 +596,6 @@
             this.pictureBox1.TabIndex = 36;
             this.pictureBox1.TabStop = false;
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.Txtingresar_vendedor_nombre);
-            this.groupBox1.Controls.Add(this.TxtRepetir_Contraseña);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.Codigo);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.Txtingresar_vendedor_contrasena);
-            this.groupBox1.Controls.Add(this.Btningresa_vendedor_guardar);
-            this.groupBox1.Controls.Add(this.Btningresar_vendedor_limpiar);
-            this.groupBox1.Controls.Add(this.Txtingresar_vendedor_codigo);
-            this.groupBox1.Controls.Add(this.Txtingresar_vendedor_usuario);
-            this.groupBox1.Location = new System.Drawing.Point(38, 32);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(561, 352);
-            this.groupBox1.TabIndex = 37;
-            this.groupBox1.TabStop = false;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.Btnconsultar_vendedor_mostrarvendedor);
-            this.groupBox2.Controls.Add(this.Btn_consultar_vendedor_consultar);
-            this.groupBox2.Controls.Add(this.Cbxconsultar_vendedor_vendedor);
-            this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Location = new System.Drawing.Point(72, 33);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(493, 141);
-            this.groupBox2.TabIndex = 5;
-            this.groupBox2.TabStop = false;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.Btnmodificar_vendedor_guardarcambios);
-            this.groupBox3.Controls.Add(this.Txtmodificar_vendedor_nombre);
-            this.groupBox3.Controls.Add(this.Btnmodificar_vendedor_consultar);
-            this.groupBox3.Controls.Add(this.Txtmodificar_vendedor_contrasena);
-            this.groupBox3.Controls.Add(this.label5);
-            this.groupBox3.Controls.Add(this.Txtmodificar_vendedor_usuario);
-            this.groupBox3.Controls.Add(this.Txtmodificar_vendedor_codigo);
-            this.groupBox3.Controls.Add(this.Cbomodificar_vendedor_usuario);
-            this.groupBox3.Controls.Add(this.label9);
-            this.groupBox3.Controls.Add(this.label6);
-            this.groupBox3.Controls.Add(this.label8);
-            this.groupBox3.Controls.Add(this.label7);
-            this.groupBox3.Location = new System.Drawing.Point(135, 17);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(374, 386);
-            this.groupBox3.TabIndex = 13;
-            this.groupBox3.TabStop = false;
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.Btneliminar_vendedor_vendedor);
-            this.groupBox4.Controls.Add(this.label11);
-            this.groupBox4.Controls.Add(this.Cboeliminar_vendedor_usuario);
-            this.groupBox4.Location = new System.Drawing.Point(98, 70);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(445, 270);
-            this.groupBox4.TabIndex = 3;
-            this.groupBox4.TabStop = false;
-            // 
             // Vendedores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -613,19 +614,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.Tpgingresar_vendedor.ResumeLayout(false);
-            this.Tpgconsultarvendedor.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Dgwconsultarvendedor)).EndInit();
-            this.Tpgmodificarvendedor.ResumeLayout(false);
-            this.Tpgeliminarvendedor.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.Tpgconsultarvendedor.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Dgwconsultarvendedor)).EndInit();
+            this.Tpgmodificarvendedor.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.Tpgeliminarvendedor.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

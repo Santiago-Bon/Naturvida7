@@ -55,6 +55,7 @@
             // 
             // DgvProductosFactura
             // 
+            this.DgvProductosFactura.AllowUserToAddRows = false;
             this.DgvProductosFactura.AllowUserToResizeColumns = false;
             this.DgvProductosFactura.AllowUserToResizeRows = false;
             this.DgvProductosFactura.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
