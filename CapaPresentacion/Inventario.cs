@@ -39,7 +39,8 @@ namespace CapaPresentacion
 
         private void mostrarnombreproducto() //Muestra la descripción de los productos en el combobox de factura
         {
-            Cbo_Inventario_Producto.DataSource = inventario.Buscarnombreprod();
+            //Cbo_Inventario_Producto.DataSource = inventario.Buscarnombreprod();
+            Cbo_Inventario_Producto.DataSource = inventario.MostrarInventarioMostrarTodo();
             Cbo_Inventario_Producto.DisplayMember = "Descripción";
             Cbo_Inventario_Producto.ValueMember = "Codigo";
             Cbo_Inventario_Producto.SelectedIndex = -1;
