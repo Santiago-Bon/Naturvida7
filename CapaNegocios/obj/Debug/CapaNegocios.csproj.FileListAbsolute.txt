@@ -141,3 +141,25 @@ C:\Users\carlo\Downloads\Naturvida 3.8\Naturvida 3\Solucion Naturvida\CapaNegoci
 C:\Users\carlo\Downloads\Naturvida 3.8\Naturvida 3\Solucion Naturvida\CapaNegocios\obj\Debug\CapaNegocios.csproj.CopyComplete
 C:\Users\carlo\Downloads\Naturvida 3.8\Naturvida 3\Solucion Naturvida\CapaNegocios\obj\Debug\CapaNegocios.dll
 C:\Users\carlo\Downloads\Naturvida 3.8\Naturvida 3\Solucion Naturvida\CapaNegocios\obj\Debug\CapaNegocios.pdb
+C:\Users\Aprendiz.BUCDFPCSEFSD025\Downloads\Proyecto-NaturVida\CapaNegocios\bin\Debug\CapaNegocios.dll
+C:\Users\Aprendiz.BUCDFPCSEFSD025\Downloads\Proyecto-NaturVida\CapaNegocios\bin\Debug\CapaNegocios.pdb
+C:\Users\Aprendiz.BUCDFPCSEFSD025\Downloads\Proyecto-NaturVida\CapaNegocios\bin\Debug\CapaDatos.dll
+C:\Users\Aprendiz.BUCDFPCSEFSD025\Downloads\Proyecto-NaturVida\CapaNegocios\bin\Debug\CE_Entidades.dll
+C:\Users\Aprendiz.BUCDFPCSEFSD025\Downloads\Proyecto-NaturVida\CapaNegocios\bin\Debug\CapaDatos.pdb
+C:\Users\Aprendiz.BUCDFPCSEFSD025\Downloads\Proyecto-NaturVida\CapaNegocios\bin\Debug\CE_Entidades.pdb
+C:\Users\Aprendiz.BUCDFPCSEFSD025\Downloads\Proyecto-NaturVida\CapaNegocios\obj\Debug\CapaNegocios.csproj.AssemblyReference.cache
+C:\Users\Aprendiz.BUCDFPCSEFSD025\Downloads\Proyecto-NaturVida\CapaNegocios\obj\Debug\CapaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\Aprendiz.BUCDFPCSEFSD025\Downloads\Proyecto-NaturVida\CapaNegocios\obj\Debug\CapaNegocios.csproj.CopyComplete
+C:\Users\Aprendiz.BUCDFPCSEFSD025\Downloads\Proyecto-NaturVida\CapaNegocios\obj\Debug\CapaNegocios.dll
+C:\Users\Aprendiz.BUCDFPCSEFSD025\Downloads\Proyecto-NaturVida\CapaNegocios\obj\Debug\CapaNegocios.pdb
+C:\Users\carlo\Downloads\NaturVida Final\Proyecto-NaturVida\CapaNegocios\bin\Debug\CapaNegocios.dll
+C:\Users\carlo\Downloads\NaturVida Final\Proyecto-NaturVida\CapaNegocios\bin\Debug\CapaNegocios.pdb
+C:\Users\carlo\Downloads\NaturVida Final\Proyecto-NaturVida\CapaNegocios\bin\Debug\CapaDatos.dll
+C:\Users\carlo\Downloads\NaturVida Final\Proyecto-NaturVida\CapaNegocios\bin\Debug\CE_Entidades.dll
+C:\Users\carlo\Downloads\NaturVida Final\Proyecto-NaturVida\CapaNegocios\bin\Debug\CapaDatos.pdb
+C:\Users\carlo\Downloads\NaturVida Final\Proyecto-NaturVida\CapaNegocios\bin\Debug\CE_Entidades.pdb
+C:\Users\carlo\Downloads\NaturVida Final\Proyecto-NaturVida\CapaNegocios\obj\Debug\CapaNegocios.csproj.AssemblyReference.cache
+C:\Users\carlo\Downloads\NaturVida Final\Proyecto-NaturVida\CapaNegocios\obj\Debug\CapaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Downloads\NaturVida Final\Proyecto-NaturVida\CapaNegocios\obj\Debug\CapaNegocios.csproj.CopyComplete
+C:\Users\carlo\Downloads\NaturVida Final\Proyecto-NaturVida\CapaNegocios\obj\Debug\CapaNegocios.dll
+C:\Users\carlo\Downloads\NaturVida Final\Proyecto-NaturVida\CapaNegocios\obj\Debug\CapaNegocios.pdb

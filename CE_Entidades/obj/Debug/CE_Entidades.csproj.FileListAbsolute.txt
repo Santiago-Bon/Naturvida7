@@ -10,3 +10,9 @@ C:\Users\Sena CSET\Desktop\Naturvida\Solucion Naturvida\CE_Entidades\obj\Debug\C
 C:\Users\Sena CSET\Desktop\Naturvida\Solucion Naturvida\CE_Entidades\obj\Debug\CE_Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Sena CSET\Desktop\Naturvida\Solucion Naturvida\CE_Entidades\obj\Debug\CE_Entidades.dll
 C:\Users\Sena CSET\Desktop\Naturvida\Solucion Naturvida\CE_Entidades\obj\Debug\CE_Entidades.pdb
+C:\Users\Aprendiz.BUCDFPCSEFSD025\Downloads\Proyecto-NaturVida\CE_Entidades\bin\Debug\CE_Entidades.dll
+C:\Users\Aprendiz.BUCDFPCSEFSD025\Downloads\Proyecto-NaturVida\CE_Entidades\bin\Debug\CE_Entidades.pdb
+C:\Users\Aprendiz.BUCDFPCSEFSD025\Downloads\Proyecto-NaturVida\CE_Entidades\obj\Debug\CE_Entidades.csproj.AssemblyReference.cache
+C:\Users\Aprendiz.BUCDFPCSEFSD025\Downloads\Proyecto-NaturVida\CE_Entidades\obj\Debug\CE_Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Aprendiz.BUCDFPCSEFSD025\Downloads\Proyecto-NaturVida\CE_Entidades\obj\Debug\CE_Entidades.dll
+C:\Users\Aprendiz.BUCDFPCSEFSD025\Downloads\Proyecto-NaturVida\CE_Entidades\obj\Debug\CE_Entidades.pdb

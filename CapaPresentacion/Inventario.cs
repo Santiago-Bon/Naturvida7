@@ -80,6 +80,18 @@ namespace CapaPresentacion
         }
 
 
+        //Cerrar
+
+
+        private void BtnCerrar_Click(object sender, EventArgs e) //Vacia el origen de los datos del datagridview
+        {
+            DataTable tabla = new DataTable();
+            Dgv_Inventario.DataSource = tabla;
+            BtnExportarExcel.Enabled = false;
+            BtnExportarPdf.Enabled = false;
+        }
+
+
         //Exportar a Excel
 
 
